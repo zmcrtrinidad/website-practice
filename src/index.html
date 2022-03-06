@@ -5,32 +5,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1e11a39cdc.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="bg-black">
+<body class="bg-black ">
 
-    <nav class="  px-2 sm:px-4 py-2.5 rounded">
-        <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <nav class=" mx-5 lg:mx-40 ">
+        <div class="flex  justify-between">
             <div>
                 <!-- Website Logo -->
-                <a href="#" class="flex items-center py-4 px-2">
-                    <span class="font-semibold text-white text-lg">Johnathan Specter</span>
+                <a href="#" class="flex items-center py-4 ">
+                    <span class="font-semibold text-white text-lg font-prata">Johnathan Specter</span>
                 </a>
             </div>
             <!-- Primary Navbar items -->
-            <div class="hidden md:flex items-center space-x-1">
+            <div class="hidden lg:flex items-center space-x-1">
                 <a href="index.html" class="navbar-link">Articles</a>
                 <a href="#chats" class="navbar-link">Chats</a>
                 <a href="#rewards" class="navbar-link">Rewards</a>
                 <a href="#about" class="navbar-link">About</a>
             </div> <!-- Secondary Navbar items -->
-            <div class="hidden md:flex items-center space-x-3 ">
+            <div class="hidden lg:flex items-center space-x-3 ">
                 <a href="" class="p-2 text-black bg-[#FBE850] rounded hover:white transition duration-300 ">
                     Get Started
                 </a>
             </div>
-             <!-- Mobile menu button -->
-            <div class="md:hidden flex items-center">
+            <!-- Mobile menu button -->
+            <div class="lg:hidden flex items-center">
                 <button class="outline-none mobile-menu-button">
                     <svg class=" w-6 h-6 text-white hover:text-g-500 " x-show="!showMenu" fill="none"
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
@@ -43,12 +47,7 @@
         <!-- mobile menu -->
         <div class="hidden mobile-menu m-auto bg-white">
             <ul class="">
-                <div class="hidden md:flex items-center space-x-1">
-                    <a href="" class="navbar-link">Articles</a>
-                    <a href="" class="navbar-link">Chats</a>
-                    <a href="" class="navbar-link">Rewards</a>
-                    <a href="" class="navbar-link">About</a>
-                </div> <!-- Secondary Navbar items -->
+
                 <li class="active">
                     <a href="index.html" class="block font-bold hover:text-gray-500 text-sm px-2 py-4  ">
                         Articles
@@ -65,20 +64,33 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#about"class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
+                    <a href="#about" class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
                         About
                     </a>
                 </li>
-                <li class="py-4 p">
+                <li class="py-4 px-2">
                     <a href="" class="p-2 text-black bg-[#FBE850] rounded hover:white font-bold hover:text-gray-500 ">
                         Get Started
                     </a>
                 </li>
             </ul>
-        
         </div>
-
     </nav>
+    <main class="mx-8 lg:mx-40  ">
+
+
+        <div class=" md:w-full lg:w-full xl:w-3/4 2xl:w-3/5  py-10 ">
+            <h1 class="text-white font-prata tracking-widest py-5 text-2xl md:text-4xl  xl:text-5xl   2xl:text-6xl">
+                Helping companies build better,
+                scalable software.</h1>
+            <p class="leading-7 text-gray-400 tracking-widest xl:mr-14  2xl:text-xl 2xl:mr-32 ">
+                Award-winning web developer and author, with over 15+ years of working
+                and expirience with Fortune 500 companies like Apple, Google,Facebook,and
+                more.
+            </p>
+        </div>
+   
+    </main>
     <script src="/src/main.js"></script>
 </body>
 
