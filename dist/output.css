@@ -610,6 +610,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   justify-content: space-between;
 }
 
+.justify-around{
+  justify-content: space-around;
+}
+
+.justify-evenly{
+  justify-content: space-evenly;
+}
+
 .justify-items-center{
   justify-items: center;
 }
@@ -663,6 +671,16 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-\[\#2E3038\]{
   --tw-bg-opacity: 1;
   background-color: rgb(46 48 56 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600{
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.bg-gray-800{
+  --tw-bg-opacity: 1;
+  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
 .p-2{
@@ -763,6 +781,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .pl-12{
   padding-left: 3rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
 }
 
 .font-prata{
