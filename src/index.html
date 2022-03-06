@@ -9,6 +9,77 @@
 
 <body class="bg-black">
 
+    <nav class="  px-2 sm:px-4 py-2.5 rounded">
+        <div class="container flex flex-wrap justify-between items-center mx-auto">
+            <div>
+                <!-- Website Logo -->
+                <a href="#" class="flex items-center py-4 px-2">
+                    <span class="font-semibold text-white text-lg">Johnathan Specter</span>
+                </a>
+            </div>
+            <!-- Primary Navbar items -->
+            <div class="hidden md:flex items-center space-x-1">
+                <a href="index.html" class="navbar-link">Articles</a>
+                <a href="#chats" class="navbar-link">Chats</a>
+                <a href="#rewards" class="navbar-link">Rewards</a>
+                <a href="#about" class="navbar-link">About</a>
+            </div> <!-- Secondary Navbar items -->
+            <div class="hidden md:flex items-center space-x-3 ">
+                <a href="" class="p-2 text-black bg-[#FBE850] rounded hover:white transition duration-300 ">
+                    Get Started
+                </a>
+            </div>
+             <!-- Mobile menu button -->
+            <div class="md:hidden flex items-center">
+                <button class="outline-none mobile-menu-button">
+                    <svg class=" w-6 h-6 text-white hover:text-g-500 " x-show="!showMenu" fill="none"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <!-- mobile menu -->
+        <div class="hidden mobile-menu m-auto bg-white">
+            <ul class="">
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="" class="navbar-link">Articles</a>
+                    <a href="" class="navbar-link">Chats</a>
+                    <a href="" class="navbar-link">Rewards</a>
+                    <a href="" class="navbar-link">About</a>
+                </div> <!-- Secondary Navbar items -->
+                <li class="active">
+                    <a href="index.html" class="block font-bold hover:text-gray-500 text-sm px-2 py-4  ">
+                        Articles
+                    </a>
+                </li>
+                <li>
+                    <a href="#chats" class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
+                        Chats
+                    </a>
+                </li>
+                <li>
+                    <a href="#rewards" class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
+                        Rewards
+                    </a>
+                </li>
+                <li>
+                    <a href="#about"class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
+                        About
+                    </a>
+                </li>
+                <li class="py-4 p">
+                    <a href="" class="p-2 text-black bg-[#FBE850] rounded hover:white font-bold hover:text-gray-500 ">
+                        Get Started
+                    </a>
+                </li>
+            </ul>
+        
+        </div>
+
+    </nav>
+    <script src="/src/main.js"></script>
 </body>
 
 </html>
