@@ -5,6 +5,8 @@ module.exports = {
       fontFamily: {
         'prata': ['Prata', 'serif'],
         'inter': ['Inter', 'sans-serif'],
+        'blair': ['blair', 'sans-serif'],
+
       } ,
     },
   } ,

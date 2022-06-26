@@ -13,30 +13,25 @@
 
 <body class="bg-black ">
 
-    <nav class=" mx-5 xl:mx-40 ">
-        <div class="flex  justify-between">
+    <nav class="mx-5 lg:mx-32">
+        <div class="flex justify-between">
             <div>
                 <!-- Website Logo -->
                 <a href="#" class="flex items-center py-4 ">
-                    <span class="font-semibold text-white text-lg font-prata">Johnathan Specter</span>
+                    <span class="text-lg font-semibold text-white ">Digital Market</span>
                 </a>
             </div>
             <!-- Primary Navbar items -->
-            <div class="hidden lg:flex items-center space-x-1">
-                <a href="index.html" class="navbar-link">Articles</a>
-                <a href="#chats" class="navbar-link">Chats</a>
-                <a href="#rewards" class="navbar-link">Rewards</a>
-                <a href="#about" class="navbar-link">About</a>
+            <div class="items-center hidden space-x-1 lg:flex">
+                <a href="index.html" class="navbar-link">Services</a>
+                <a href="#about" class="navbar-link">About us</a>
+                <a href="#contact" class="navbar-link">Contact Us</a>
             </div> <!-- Secondary Navbar items -->
-            <div class="hidden lg:flex items-center space-x-3 ">
-                <a href="" class="p-2 text-black bg-[#FBE850] rounded hover:white transition duration-300 ">
-                    Get Started
-                </a>
-            </div>
+
             <!-- Mobile menu button -->
-            <div class="lg:hidden flex items-center">
+            <div class="flex items-center lg:hidden">
                 <button class="outline-none mobile-menu-button">
-                    <svg class=" w-6 h-6 text-white hover:text-g-500 " x-show="!showMenu" fill="none"
+                    <svg class="w-6 h-6 text-white hover:text-g-500" x-show="!showMenu" fill="none"
                         stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24"
                         stroke="currentColor">
                         <path d="M4 6h16M4 12h16M4 18h16"></path>
@@ -45,187 +40,260 @@
             </div>
         </div>
         <!-- mobile menu -->
-        <div class="hidden mobile-menu m-auto bg-white">
+        <div class="hidden m-auto bg-white mobile-menu">
             <ul class="">
 
                 <li class="active">
-                    <a href="index.html" class="block font-bold hover:text-gray-500 text-sm px-2 py-4  ">
-                        Articles
+                    <a href="index.html" class="block px-2 py-4 text-sm font-bold hover:text-gray-500 ">
+                        Services
                     </a>
                 </li>
                 <li>
-                    <a href="#chats" class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
-                        Chats
+                    <a href="#chats" class="block px-2 py-4 text-sm font-bold hover:text-gray-500">
+                        About Us
                     </a>
                 </li>
                 <li>
-                    <a href="#rewards" class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
-                        Rewards
+                    <a href="#rewards" class="block px-2 py-4 text-sm font-bold hover:text-gray-500">
+                        Contact Us
                     </a>
                 </li>
-                <li>
-                    <a href="#about" class="block text-sm px-2 py-4  font-bold hover:text-gray-500">
-                        About
-                    </a>
-                </li>
-                <li class="py-4 px-2">
-                    <a href="" class="p-2 text-black bg-[#FBE850] font-prata font-bold hover:text-gray-500 ">
-                        Get Started
-                    </a>
-                </li>
+
             </ul>
         </div>
     </nav>
-    <main class="mx-8 lg:mx-40  ">
-        <div class=" md:w-full lg:w-full xl:w-3/4 2xl:w-3/5  py-5 ">
-            <h1 class="text-white font-prata tracking-widest py-5 text-2xl md:text-4xl  xl:text-5xl   2xl:text-6xl">
-                Helping companies build better,
-                scalable software.</h1>
-            <p class="leading-7 text-gray-400 tracking-widest xl:mr-14  2xl:text-xl 2xl:mr-32 ">
-                Award-winning web developer and author, with over 15+ years of working
-                and expirience with Fortune 500 companies like Apple, Google,Facebook,and
-                more.
-            </p>
-        </div>
-        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 my-12 justify-items-center text-white">
-            <div class="p-8">
-                <img src="/src/img/Logos/Walmart.svg" alt="">
+    <main class="">
+        <header class="lg:mx-32 py-32">
+            <div class="py-5 md:w-full lg:w-full xl:w-3/4 2xl:w-3/5">
+                <h1 class="py-5 text-2xl tracking-widest text-white font-prata md:text-4xl xl:text-5xl 2xl:text-6xl">
+                    Helping companies build better,
+                    scalable software.</h1>
+                <p class="leading-7 tracking-widest text-gray-400 xl:mr-14 2xl:text-xl 2xl:mr-32 ">
+                    Award-winning web developer and author, with over 15+ years of working
+                    and expirience with Fortune 500 companies like Apple, Google,Facebook,and
+                    more.
+                </p>
             </div>
-            <div class="p-8">
-                <img src="/src/img/Logos/JP Morgan.svg" alt="">
+        </header>
+
+        <section class="py-20 bg-gray-700">
+            <div class="lg:mx-32 ">
+                <div>
+                    <h1 class="py-4 font-extrabold tracking-widest text-white xl:text-3xl font-prata">
+                        WHAT WE DO
+                    </h1>
+                </div>
+                <p class="leading-7 tracking-widest text-gray-400 xl:mr-14 2xl:text-xl 2xl:mr-32 ">
+                    <p class="leading-7 tracking-widest text-gray-400 xl:mr-14 2xl:text-xl 2xl:mr-32 ">
+                        Award-winning web developer and author, with over 15+ years of working
+                        and expirience with Fortune 500 companies like Apple, Google,Facebook,and
+                        more.
+                    </p>
+                </p>
+                <div class="grid grid-cols-1 my-12 text-white xl:grid-cols-3 xl:gap-10 justify-items-center">
+                    <div class="">
+                        <div class="">
+                            <a href="#">
+                                <img class="w-full rounded-t-lg" src="/src/img/Spense.png" alt="">
+                            </a>
+                            <div class="py-5">
+                                <a href="#">
+                                    <h5 class="mb-2 text-2xl text-white font-prata">
+                                        Website Development <i class="fa-solid fa-arrow-right-long"></i>
+                                    </h5>
+                                </a>
+                                <p class="mb-3 mr-5 text-base font-normal text-gray-400 xl:mr-5 ">
+                                    Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy
+                                    text.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="">
+                            <a href="#">
+                                <img class="w-full rounded-t-lg" src="/src/img/YelpCamp.png" alt="">
+                            </a>
+                            <div class="py-5">
+                                <a href="#">
+                                    <h5 class="mb-2 text-2xl text-white font-prata">
+                                        Graphic Design <i class="fa-solid fa-arrow-right-long"></i>
+                                    </h5>
+                                </a>
+                                <p class="mb-3 mr-5 font-normal text-gray-400 xl:mr-5 ">
+                                    Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy
+                                    text.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="">
+                            <a href="#">
+                                <img class="w-full rounded-t-lg" src="/src/img/YelpCamp.png" alt="">
+                            </a>
+                            <div class="py-5">
+                                <a href="#">
+                                    <h5 class="mb-2 text-2xl text-white font-prata">
+                                        App Development <i class="fa-solid fa-arrow-right-long"></i>
+                                    </h5>
+                                </a>
+                                <p class="mb-3 mr-5 font-normal text-gray-400 xl:mr-5 ">
+                                    Lorem ipsum is simply dummy text of the printing typesetting lorem ipsum been dummy
+                                    text.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="p-8">
-                <img src="/src/img/Logos/Visa.svg" alt="">
+        </section>
+
+        <section class="lg:mx-32">
+            <div class="grid grid-cols-2 my-12 text-white sm:grid-cols-3 lg:grid-cols-6 justify-items-center">
+                <div class="p-8">
+                    <img src="/src/img/Logos/Walmart.svg" alt="">
+                </div>
+                <div class="p-8">
+                    <img src="/src/img/Logos/JP Morgan.svg" alt="">
+                </div>
+                <div class="p-8">
+                    <img src="/src/img/Logos/Visa.svg" alt="">
+                </div>
+                <div class="p-8">
+                    <svg width="100" height="24" viewBox="0 0 100 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_6:236)">
+                            <path
+                                d="M8.06458 9.33056C12.4676 7.81293 13.217 3.85963 12.6549 0.224831C12.6549 0.0936787 12.7673 -1.64285e-06 12.8797 0.0374705C17.0954 2.09844 21.8356 6.59509 21.8356 13.3401C21.8356 18.5112 17.8261 23.0828 11.9992 23.0828C9.91994 23.1774 7.86845 22.5768 6.16847 21.3759C4.4685 20.175 3.21686 18.4422 2.6111 16.4509C2.00534 14.4597 2.07997 12.3234 2.82321 10.3792C3.56644 8.4351 4.93595 6.79384 6.71558 5.7145C6.828 5.63955 6.97788 5.7145 6.97788 5.84565C7.03409 6.53888 7.22145 8.28134 7.98963 9.33056H8.06458Z"
+                                fill="url(#paint0_radial_6:236)" />
+                            <path
+                                d="M34.2389 18.9796L34.5574 18.6049L35.5504 21.7526L35.4193 21.8837C34.6698 22.577 33.5457 22.9329 32.103 22.9329H32.0468C30.7352 22.9329 29.7048 22.5582 28.9928 21.865C28.2808 21.153 27.9061 20.0851 27.9061 18.7361V10.1549H25.3767V6.68878H27.9061V2.51063H31.8032V6.68878H34.8946V10.1549H31.7845V17.8929C31.7845 18.2489 31.8781 19.3918 32.9648 19.3918C33.5269 19.3918 34.0515 19.1857 34.2389 18.9609V18.9796ZM36.2999 22.577V6.70751H40.197V22.577H36.2999ZM38.2297 0.224831C38.6921 0.224845 39.1441 0.361742 39.5288 0.618266C39.9136 0.874791 40.2138 1.23946 40.3916 1.66632C40.5693 2.09317 40.6168 2.56311 40.528 3.0169C40.4391 3.47068 40.2179 3.88801 39.8922 4.21628C39.5666 4.54455 39.151 4.76907 38.6979 4.86154C38.2449 4.95401 37.7746 4.9103 37.3463 4.73591C36.9181 4.56151 36.551 4.26425 36.2914 3.88158C36.0319 3.49891 35.8914 3.04797 35.8877 2.58558C35.8877 1.31152 36.9556 0.224831 38.2297 0.224831ZM50.6704 6.31405C54.0429 6.31405 55.8978 8.15019 55.8978 11.5039V22.5582H52.0007V12.4407C51.9257 10.6421 51.0639 9.8177 49.2277 9.8177C47.579 9.8177 46.2487 10.8294 45.5742 11.6913V22.5582H41.6771V6.72625H45.5742V8.41249C46.6984 7.3258 48.497 6.35153 50.6704 6.35153V6.31405ZM68.8631 8.35629V0.899329H72.7602V22.5957H68.8631V20.9469C68.2668 21.5759 67.5494 22.0777 66.7541 22.4222C65.9588 22.7668 65.102 22.9469 64.2353 22.9517C59.9822 22.9517 57.1343 19.6167 57.1343 14.6516C57.1343 9.66781 59.9822 6.33279 64.2353 6.33279C65.1039 6.33675 65.9625 6.5183 66.7583 6.86628C67.5542 7.21426 68.2704 7.72132 68.8631 8.35629ZM68.8631 11.71C68.4288 11.1444 67.8738 10.6827 67.2386 10.3586C66.6033 10.0345 65.9037 9.85608 65.1909 9.83644C62.7739 9.83644 61.1626 11.7663 61.1626 14.6516C61.1626 17.5182 62.7739 19.448 65.1909 19.448C66.5961 19.448 68.1324 18.6986 68.8631 17.6119V11.71ZM81.8659 6.33279C86.475 6.33279 89.6789 9.89264 89.6789 14.9514V16.0193H77.8939C78.2874 18.2489 80.0485 19.6729 82.4468 19.6729C83.9644 19.6729 85.6319 19.0171 86.5874 18.0616L86.8497 17.8367L88.7046 20.4973L88.5172 20.6659C86.7616 22.2225 84.4729 23.0414 82.1282 22.9517C77.2569 22.9517 73.8282 19.523 73.8282 14.6329C73.7903 13.5532 73.971 12.4771 74.3593 11.469C74.7477 10.4609 75.3357 9.54164 76.0882 8.76646C76.8406 7.99127 77.7419 7.37611 78.738 6.95791C79.7341 6.53971 80.8044 6.32708 81.8847 6.33279H81.8659ZM77.8752 13.0778H85.8755C85.6506 10.6983 83.6833 9.6116 81.8659 9.6116C79.1305 9.6116 78.1 11.6726 77.8752 13.0965V13.0778ZM99.1031 6.33279H99.3842V10.2674L99.0469 10.2112C98.7659 10.1549 98.4099 10.1175 98.0539 10.1175C96.7986 10.1175 95.0561 10.9981 94.4004 11.9349V22.5582H90.5033V6.70751H94.4191V8.4687C95.7119 7.11971 97.4169 6.33279 99.1031 6.33279Z"
+                                fill="#ADADAD" />
+                        </g>
+                        <defs>
+                            <radialGradient id="paint0_radial_6:236" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                                gradientTransform="translate(12.0206 23.0925) scale(19.63 23.0634)">
+                                <stop stop-color="#FF7854" />
+                                <stop offset="1" stop-color="#FD267D" />
+                            </radialGradient>
+                            <clipPath id="clip0_6:236">
+                                <rect width="99.1736" height="24" fill="white" transform="translate(0.658508)" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                </div>
+                <div class="p-8">
+                    <img src="/src/img/Logos/Samsung.svg" alt="">
+                </div>
+                <div class="p-8">
+                    <img src="/src/img/Logos/Verizon.svg" alt="">
+                </div>
             </div>
-            <div class="p-8">
-                <svg width="100" height="24" viewBox="0 0 100 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g clip-path="url(#clip0_6:236)">
-                        <path
-                            d="M8.06458 9.33056C12.4676 7.81293 13.217 3.85963 12.6549 0.224831C12.6549 0.0936787 12.7673 -1.64285e-06 12.8797 0.0374705C17.0954 2.09844 21.8356 6.59509 21.8356 13.3401C21.8356 18.5112 17.8261 23.0828 11.9992 23.0828C9.91994 23.1774 7.86845 22.5768 6.16847 21.3759C4.4685 20.175 3.21686 18.4422 2.6111 16.4509C2.00534 14.4597 2.07997 12.3234 2.82321 10.3792C3.56644 8.4351 4.93595 6.79384 6.71558 5.7145C6.828 5.63955 6.97788 5.7145 6.97788 5.84565C7.03409 6.53888 7.22145 8.28134 7.98963 9.33056H8.06458Z"
-                            fill="url(#paint0_radial_6:236)" />
-                        <path
-                            d="M34.2389 18.9796L34.5574 18.6049L35.5504 21.7526L35.4193 21.8837C34.6698 22.577 33.5457 22.9329 32.103 22.9329H32.0468C30.7352 22.9329 29.7048 22.5582 28.9928 21.865C28.2808 21.153 27.9061 20.0851 27.9061 18.7361V10.1549H25.3767V6.68878H27.9061V2.51063H31.8032V6.68878H34.8946V10.1549H31.7845V17.8929C31.7845 18.2489 31.8781 19.3918 32.9648 19.3918C33.5269 19.3918 34.0515 19.1857 34.2389 18.9609V18.9796ZM36.2999 22.577V6.70751H40.197V22.577H36.2999ZM38.2297 0.224831C38.6921 0.224845 39.1441 0.361742 39.5288 0.618266C39.9136 0.874791 40.2138 1.23946 40.3916 1.66632C40.5693 2.09317 40.6168 2.56311 40.528 3.0169C40.4391 3.47068 40.2179 3.88801 39.8922 4.21628C39.5666 4.54455 39.151 4.76907 38.6979 4.86154C38.2449 4.95401 37.7746 4.9103 37.3463 4.73591C36.9181 4.56151 36.551 4.26425 36.2914 3.88158C36.0319 3.49891 35.8914 3.04797 35.8877 2.58558C35.8877 1.31152 36.9556 0.224831 38.2297 0.224831ZM50.6704 6.31405C54.0429 6.31405 55.8978 8.15019 55.8978 11.5039V22.5582H52.0007V12.4407C51.9257 10.6421 51.0639 9.8177 49.2277 9.8177C47.579 9.8177 46.2487 10.8294 45.5742 11.6913V22.5582H41.6771V6.72625H45.5742V8.41249C46.6984 7.3258 48.497 6.35153 50.6704 6.35153V6.31405ZM68.8631 8.35629V0.899329H72.7602V22.5957H68.8631V20.9469C68.2668 21.5759 67.5494 22.0777 66.7541 22.4222C65.9588 22.7668 65.102 22.9469 64.2353 22.9517C59.9822 22.9517 57.1343 19.6167 57.1343 14.6516C57.1343 9.66781 59.9822 6.33279 64.2353 6.33279C65.1039 6.33675 65.9625 6.5183 66.7583 6.86628C67.5542 7.21426 68.2704 7.72132 68.8631 8.35629ZM68.8631 11.71C68.4288 11.1444 67.8738 10.6827 67.2386 10.3586C66.6033 10.0345 65.9037 9.85608 65.1909 9.83644C62.7739 9.83644 61.1626 11.7663 61.1626 14.6516C61.1626 17.5182 62.7739 19.448 65.1909 19.448C66.5961 19.448 68.1324 18.6986 68.8631 17.6119V11.71ZM81.8659 6.33279C86.475 6.33279 89.6789 9.89264 89.6789 14.9514V16.0193H77.8939C78.2874 18.2489 80.0485 19.6729 82.4468 19.6729C83.9644 19.6729 85.6319 19.0171 86.5874 18.0616L86.8497 17.8367L88.7046 20.4973L88.5172 20.6659C86.7616 22.2225 84.4729 23.0414 82.1282 22.9517C77.2569 22.9517 73.8282 19.523 73.8282 14.6329C73.7903 13.5532 73.971 12.4771 74.3593 11.469C74.7477 10.4609 75.3357 9.54164 76.0882 8.76646C76.8406 7.99127 77.7419 7.37611 78.738 6.95791C79.7341 6.53971 80.8044 6.32708 81.8847 6.33279H81.8659ZM77.8752 13.0778H85.8755C85.6506 10.6983 83.6833 9.6116 81.8659 9.6116C79.1305 9.6116 78.1 11.6726 77.8752 13.0965V13.0778ZM99.1031 6.33279H99.3842V10.2674L99.0469 10.2112C98.7659 10.1549 98.4099 10.1175 98.0539 10.1175C96.7986 10.1175 95.0561 10.9981 94.4004 11.9349V22.5582H90.5033V6.70751H94.4191V8.4687C95.7119 7.11971 97.4169 6.33279 99.1031 6.33279Z"
-                            fill="#ADADAD" />
-                    </g>
-                    <defs>
-                        <radialGradient id="paint0_radial_6:236" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
-                            gradientTransform="translate(12.0206 23.0925) scale(19.63 23.0634)">
-                            <stop stop-color="#FF7854" />
-                            <stop offset="1" stop-color="#FD267D" />
-                        </radialGradient>
-                        <clipPath id="clip0_6:236">
-                            <rect width="99.1736" height="24" fill="white" transform="translate(0.658508)" />
-                        </clipPath>
-                    </defs>
-                </svg>
+        </section>
+        <section class="mx-32">
+            <div class="grid w-full md:m-4 lg:grid-cols-3 justify-items-center">
+                <div class="md:p-16 p-10 my-5 w-9/12  bg-[#fbb03b] rounded-lg">
+                    <div class="">
+                        <h4 class="font-medium leading-tight text-2xl mb-2">Small Business</h4>
+                        <p class="text-gray-600">For small projects</p>
+                    </div>
+                    <div class="">
+                        <div class=""><span class="text-4xl font-semibold">$19</span> /year</div>
+                    </div>
+                    <div class="">
+                        <ul class="leading-loose">
+                            <li>Upto 5 uses</li>
+                            <li>Max 100 items/month</li>
+                            <li>500 queries/month</li>
+                            <li>Basic statistics</li>
+                            <li>Email Support</li>
+                        </ul>
+                        <div class="mt-6 py-4">
+                            <button
+                                class="bg-indigo-600 text-xl text-white py-2 px-6 rounded hover:bg-indigo-700 transition-colors duration-300">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:p-16 p-10 my-5 w-9/12  bg-[#fbb03b] rounded-lg">
+                    <div class="">
+                        <h4 class="font-medium leading-tight text-2xl mb-2">Professional</h4>
+                        <p class="text-gray-600">For large scale projects</p>
+                    </div>
+                    <div class="">
+                        <div class=""><span class="text-4xl font-semibold">$29</span> /year</div>
+                    </div>
+                    <div class="">
+                        <ul class="leading-loose">
+                            <li>Upto 50 uses</li>
+                            <li>Max 500 items/month</li>
+                            <li>1000 queries/month</li>
+                            <li>Full statistics</li>
+                            <li>Email Support</li>
+                        </ul>
+                        <div class="mt-6 py-4">
+                            <button
+                                class="bg-indigo-600 text-xl text-white py-2 px-6 rounded hover:bg-indigo-700 transition-colors duration-300">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:p-16 p-10 my-5 w-9/12  bg-[#fbb03b] rounded-lg">
+                    <div class="">
+                        <h4 class="font-medium leading-tight text-2xl mb-2">Power User</h4>
+                        <p class="text-gray-600">For multi large scale projects</p>
+                    </div>
+                    <div class="">
+                        <div class=""><span class="text-4xl font-semibold">$19</span> /year</div>
+                    </div>
+                    <div class="">
+                        <ul class="leading-loose">
+                            <li>Unlimited uses</li>
+                            <li>Unlimited items/month</li>
+                            <li>Unlimited queries/month</li>
+                            <li>Full statistics</li>
+                            <li>Email &amp; Phone Support</li>
+                        </ul>
+                        <div class="mt-6 py-4">
+                            <button
+                                class="bg-indigo-600 text-xl text-white py-2 px-6 rounded hover:bg-indigo-700 transition-colors duration-300">Get
+                                Started</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="px-5 pb-10 text-white lg:mx-32  ">
+            <div class="">
+                <div>
+                    <h1 class="py-4 font-extrabold tracking-widest text-white xl:text-3xl font-prata">
+                        Interested in working with me?
+                    </h1>
+                </div>
+                <div class="w-2/3 leading-7 text-gray-400 2xl:text-xl xl:w-2/5">
+                    I'm active on all social media platforms listed below, but you, can also me an email and I will get
+                    back
+                    to you within 24-48, hours.
+                </div>
+                <div class="py-6">
+                    <button class="py-2 px-6 text-black text-LG font-prata bg-[#FBE850] ">
+                        <a href="">
+                            Get in touch
+                        </a>
+                    </button>
+                </div>
 
             </div>
-            <div class="p-8">
-                <img src="/src/img/Logos/Samsung.svg" alt="">
-            </div>
-            <div class="p-8">
-                <img src="/src/img/Logos/Verizon.svg" alt="">
-            </div>
-        </div>
-        <div class="grid grid-cols-1 xl:grid-cols-2 my-12 xl:gap-10 justify-items-center text-white">
-            <div class="">
-                <div class="">
-                    <a href="#">
-                        <img class="rounded-t-lg w-full" src="/src/img/Spense.png" alt="">
-                    </a>
-                    <div class="py-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-prata text-white">
-                                Spense.com <i class="fa-solid  fa-arrow-right-long"></i>
-                            </h5>
-                        </a>
-                        <p class="mb-3 font-normal text-base xl:mr-5 mr-5 text-gray-400 ">
-                            Rethinking the way writers get paid, an open-source platform designed to help writers focus
-                            more on writing, and less on when and how they'll get paid. Project in collaboration with
-                            Codewell.cc
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="">
-                <div class="">
-                    <a href="#">
-                        <img class="rounded-t-lg w-full" src="/src/img/YelpCamp.png" alt="">
-                    </a>
-                    <div class="py-5">
-                        <a href="#">
-                            <h5 class="mb-2 text-2xl font-prata text-white">
-                                YelpCamp.com <i class="fa-solid fa-arrow-right-long"></i>
-                            </h5>
-                        </a>
-                        <p class="mb-3 font-normal xl:mr-5 mr-5 text-gray-400 ">
-                            Allowing backpack travelers to perfectly plan their trip through an open-source platform
-                            similar to TripAdvisor. With over 1m MAU, YelpCamp has been the crowd's favorite in 2021.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        </section>
     </main>
-    <section
-        class=" px-5 xl:px-40 py-20 grid grid-cols-1 xl:grid-cols-2 my-12 xl:gap-10  justify-items-center text-white bg-[#2E3038]">
-        <div class=" ">
-            <div>
-                <h1 class="text-3xl text-white font-prata font-bold tracking-widest py-5  ">
-                    A co-founder at one of the world's largest communities.
-                </h1>
-            </div>
-            <div class="leading-7 text-gray-400 tracking-wider text-lg pr-12">
-                The combined experience I have working at the top Fortune 500 companies has allowed me to developer a
-                skillset that helps me in not just development, but in every aspect of any business. <br /><br />
-                I'm proud to announce that I am now working at one of the world's largest communities teaching young
-                minds about how to sell yourself as a developer and open them to a whole new world of opportunities.
-            </div>
-        </div>
-        <div class="">
-            <div class="leading-7 text-gray-400 tracking-wider text-lg xl:pl-12 py">
-                As a developer, you have everything available to you and all that's holding you back is yourself.
-                <br />
-                <br />
-                A quote I live by perfectly illustrates what I mean.
-                <br />
-                <br />
-                "How big would you dream, if you knew you wouldn't fail?" You've already gone through the hardest parts
-                being a developer, it's time to elevate your skills and become a leader, in something you're passionate
-                about.
-                <br />
-                <br />
-                I'm happy to chat over coffee some time about how I can help your company.
-            </div>
-        </div>
-    </section>
-    <section class="px-5 xl:px-40 pb-10   text-white ">
-        <div class=" ">
-            <div>
-                <h1 class=" xl:text-3xl  py-4 text-white font-prata font-extrabold tracking-widest  ">
-                    Interested in working with me?
-                </h1>
-            </div>
-            <div class="leading-7 text-gray-400 w-2/3 2xl:text-xl  xl:w-2/5">
-                I'm active on all social media platforms listed below, but you, can also me an email and I will get back
-                to you within 24-48, hours.
-            </div>
-            <div class="py-6">
-                <button class="py-2 px-6 text-black text-LG font-prata bg-[#FBE850] ">
-                    <a href="">
-                        Get in touch
-                    </a>
-                </button>
-            </div>
-
-        </div>
-    </section>
     <footer class="bg-[#2E3038] px-5 xl:px-40 py-2 ">
         <div class="flex justify-between ">
             <div>
                 <!-- Website Logo -->
                 <a href="#" class="flex items-center py-4 ">
-                    <span class="font-semibold text-white text-lg font-prata">Johnathan Specter</span>
+                    <span class="text-lg font-semibold text-white font-prata">Digital Mar</span>
                 </a>
             </div>
             <!-- Primary Navbar items -->

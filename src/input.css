@@ -27,9 +27,18 @@
         hover:bg-gray-500
        
     }
-}
+} 
 @layer{
     body{
         @apply font-inter
+    }
+}
+@font-face {
+    font-family:blair ;
+    src: url(/Blair\ ITC\ Std\ Regular.otf);
+}
+@layer utilities{
+    .text-blair{
+        @apply font-blair
     }
 }
